@@ -1,4 +1,12 @@
-  import org.apache.spark.sql._
+/*
+
+#open spark shell with spark-excel package
+spark-shell --packages com.crealytics:spark-excel_2.11:0.10.1
+# use the script to get a df/ds 
+*/
+
+
+import org.apache.spark.sql._
   import org.apache.spark.sql.types._
   import com.crealytics.spark.excel._
 
